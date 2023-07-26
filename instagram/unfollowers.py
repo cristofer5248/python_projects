@@ -44,9 +44,10 @@ class Insta_info:
 insta_info = Insta_info("chrisgeek_")
 
 insta_info.Login()
+'you should keep in mind every fuction invoke instagram api or like that, and many hits to instagram could be detected and close the sesion, make sure and run one by one (uncoment)'
 'insta_info.get_my_followers() '
 'insta_info.get_my_followees()'
-insta_info.get_my_unfollowers()
+'insta_info.get_my_unfollowers()'
 
 
 
